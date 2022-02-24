@@ -4,7 +4,6 @@ console.log(image);
 
 // Obtain the 'shrink-grow' button, and assign it to the changeSize variable
 let changeSize = document.querySelector("button");
-// document.body.append(changeSize);
 console.log(changeSize);
 
 //DO NOT CHANGE THE FOLLOWING CODE
@@ -15,6 +14,3 @@ changeSize.addEventListener("click", function () {
     image.style.height = "100px";
   }
 });
-
-document.body.append(image);
-// getElementById
